@@ -1,6 +1,7 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:foody_app_flutter/Screens/login_screen.dart';
+import 'package:foody_app_flutter/Screens/password_retrieval_screen.dart';
 import 'package:foody_app_flutter/Screens/sing_up_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -17,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
       Future.delayed(const Duration(seconds: 3),
       () {
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => SignUpScreen(),));
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => RessetPass(),));
       },);
   }
   @override
