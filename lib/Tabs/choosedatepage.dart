@@ -158,7 +158,7 @@ class _ChooseDatePageState extends State<ChooseDatePage> {
                             ),
                             SizedBox(height: 10,),
                             Container(
-                              width: 270,
+                              width: 350,
                               height: 50,
                               padding: EdgeInsets.only(left: 16,right: 16),
                               decoration: BoxDecoration(

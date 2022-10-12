@@ -104,6 +104,7 @@ class _TabBooking1State extends State<TabBooking1> {
             ),
           ),
         ),
+        SizedBox(height: 20,),
         Padding(
           padding:
           const EdgeInsets.only(left: 20.0, right: 20.0, top: 5.0),
@@ -123,7 +124,7 @@ class _TabBooking1State extends State<TabBooking1> {
         ),
         SizedBox(height: 20,),
         Container(
-          width: 412,
+          width: 355,
           height: 50,
           margin: EdgeInsets.only(left: 20),
           padding: EdgeInsets.only(left: 16,right: 16),
@@ -156,7 +157,7 @@ class _TabBooking1State extends State<TabBooking1> {
         ),
         SizedBox(height: 20,),
         Container(
-          width: 412,
+          width: 355,
           height: 50,
           margin: EdgeInsets.only(left: 20),
           padding: EdgeInsets.only(left: 16,right: 16),
